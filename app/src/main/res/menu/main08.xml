@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    
+    <item
+        android:id="@+id/mn8r1"
+        android:title="Buscar"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/mn8r2"
+        android:title="Nuevo"
+        android:icon="@drawable/ic_up"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mn8r3"
+        android:title="Sincronizar"
+        android:icon="@drawable/ic_eye"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/mn8r4"
+        android:title="Limpiar"
+        android:icon="@drawable/ic_up"
+        app:showAsAction="never" />
+
+
+
+</menu>

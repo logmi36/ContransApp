@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/icon5"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon5"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CtrApp5"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity33"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity32"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity31"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity30"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity29"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity28"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity27"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity26"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity25"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity24"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity23"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity22"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity21"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity20"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity19"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity18"
+            android:exported="false"
+            android:theme="@style/Theme.CtrApp5.NoActionBar" />
+        <activity
+            android:name=".MainActivity17"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity16"
+            android:exported="false"
+            android:theme="@style/Theme.CtrApp5.NoActionBar" />
+        <activity
+            android:name=".MainActivity15"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity14"
+            android:exported="false"
+            android:theme="@style/Theme.CtrApp5.NoActionBar" />
+        <activity
+            android:name=".MainActivity13"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity12"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity11"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity10"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity09"
+            android:exported="false"
+            android:theme="@style/Theme.CtrApp5.NoActionBar" />
+        <activity
+            android:name=".MainActivity08"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity07"
+            android:exported="false"
+            android:theme="@style/Theme.CtrApp5.NoActionBar" />
+        <activity
+            android:name=".MainActivity06"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity05"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity04"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity01"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity00"
+            android:exported="true"
+            android:theme="@style/Theme.CtrApp5.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.CtrApp5.NoActionBar" />
+
+        <service
+            android:name=".Services.FirebaseMessageReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+</manifest>

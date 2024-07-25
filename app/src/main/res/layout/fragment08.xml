@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:autofit="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="64dp">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#0f87ff"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:typeface="monospace"
+            android:textSize="30dp"
+            android:text="Nuevo Daño"
+            android:textColor="#FFFFFFFF"
+            android:gravity="center" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/srclEirDmg01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+
+            <!--========================================================================-->
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content">
+
+
+
+                <TextView
+                    android:text="OD"
+                    android:background="#EDEDED"
+                    android:textColor="#3399ff"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="right" />
+
+
+
+                <Button
+                    android:id="@+id/btnEirDmg11"
+                    android:textSize="30sp"
+                    android:singleLine="true"
+                    android:textStyle="bold"
+                    android:textColor="#077d10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:background="#EDEDED" />
+
+
+
+                <ImageButton
+                    android:id="@+id/imgBtnEirDmg11"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_pencil"
+                    android:layout_gravity="center"
+                    android:background="#EDEDED"
+                    android:scaleType="fitCenter" />
+
+
+
+            </TableRow>
+
+
+
+            <!--========================================================================-->
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content">
+
+
+                <TextView
+                    android:text="Locat"
+                    android:background="#EDEDED"
+                    android:textColor="#3399ff"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="right" />
+
+
+                <Button
+                    android:id="@+id/btnEirDmg1"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="#077d10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:background="#EDEDED" />
+
+
+
+
+                <ImageButton
+                    android:id="@+id/imgBtnEirDmg1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_pencil"
+                    android:layout_gravity="center"
+                    android:background="#EDEDED"
+                    android:scaleType="fitCenter" />
+
+
+
+            </TableRow>
+            <!--========================================================================-->
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content">
+                <TextView
+                    android:text="-"
+                    android:textColor="#EDEDED"
+                    android:textSize="5sp" />
+            </TableRow>
+            <!--========================================================================-->
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content">
+                <TextView
+                    android:text="Daño"
+                    android:textStyle="bold"
+                    android:textColor="#3399ff"
+                    android:textSize="30sp"
+                    android:background="#EDEDED"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="right" />
+
+
+
+                <Button
+                    android:id="@+id/btnEirDmg2"
+
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="#077d10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:background="#EDEDED" />
+
+
+
+                <ImageButton
+                    android:id="@+id/imgBtnEirDmg2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_pencil"
+                    android:layout_gravity="center"
+                    android:background="#EDEDED"
+                    android:scaleType="fitCenter" />
+            </TableRow>
+            <!--========================================================================-->
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content">
+                <TextView
+                    android:text="-"
+                    android:textColor="#EDEDED"
+                    android:textSize="5sp" />
+            </TableRow>
+            <!--========================================================================-->
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content">
+                <TextView
+                    android:text="Comp"
+                    android:textStyle="bold"
+                    android:textColor="#3399ff"
+                    android:background="#EDEDED"
+                    android:textSize="30sp"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="right" />
+
+
+                <Button
+                    android:id="@+id/btnEirDmg3"
+
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="#077d10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:background="#EDEDED" />
+
+
+
+                <ImageButton
+                    android:id="@+id/imgBtnEirDmg3"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_pencil"
+                    android:layout_gravity="center"
+                    android:background="#EDEDED"
+                    android:scaleType="fitCenter" />
+            </TableRow>
+            <!--========================================================================-->
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content">
+                <TextView
+                    android:text="-"
+                    android:textColor="#EDEDED"
+                    android:textSize="5sp" />
+            </TableRow>
+            <!--========================================================================-->
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content">
+                <TextView
+                    android:text="Metodo"
+                    android:textStyle="bold"
+                    android:textColor="#3399ff"
+                    android:background="#EDEDED"
+                    android:textSize="30sp"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="right" />
+
+
+                <Button
+                    android:id="@+id/btnEirDmg4"
+
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="#077d10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:background="#EDEDED" />
+
+
+
+                <ImageButton
+                    android:id="@+id/imgBtnEirDmg4"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_pencil"
+                    android:layout_gravity="center"
+                    android:background="#EDEDED"
+                    android:scaleType="fitCenter" />
+            </TableRow>
+            <!--========================================================================-->
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content">
+                <TextView
+                    android:text="-"
+                    android:textColor="#EDEDED"
+                    android:textSize="5sp" />
+            </TableRow>
+            <!--========================================================================-->
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content">
+
+                <TextView
+                    android:text="CL"
+                    android:background="#EDEDED"
+                    android:textStyle="bold"
+                    android:textColor="#3399ff"
+                    android:textSize="30sp"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="right" />
+
+                <Button
+                    android:id="@+id/btnEirDmg6"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="#077d10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:background="#EDEDED" />
+
+                <ImageButton
+                    android:id="@+id/imgBtnEirDmg6"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_pencil"
+                    android:layout_gravity="center"
+                    android:background="#EDEDED"
+                    android:scaleType="fitCenter" />
+
+            </TableRow>
+            <!--========================================================================-->
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content">
+                <TextView
+                    android:text="-"
+                    android:textColor="#EDEDED"
+                    android:textSize="5sp"
+                    android:layout_span="3" />
+            </TableRow>
+            <!--========================================================================-->
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content">
+                <TextView
+                    android:text="Cant"
+                    android:textStyle="bold"
+                    android:textColor="#3399ff"
+                    android:background="#EDEDED"
+                    android:textSize="30sp"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="right" />
+
+                <Button
+                    android:id="@+id/btnEirDmg5"
+
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="#077d10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:background="#EDEDED" />
+
+                <ImageButton
+                    android:id="@+id/imgBtnEirDmg5"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_pencil"
+                    android:layout_gravity="center"
+                    android:background="#EDEDED"
+                    android:scaleType="fitCenter" />
+            </TableRow>
+            <!--========================================================================-->
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content">
+                <TextView
+                    android:text="-"
+                    android:textColor="#EDEDED"
+                    android:textSize="5sp"
+                    android:layout_span="3" />
+            </TableRow>
+            <!--========================================================================-->
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content">
+                <TextView
+                    android:text="Size 1"
+                    android:textStyle="bold"
+                    android:textColor="#3399ff"
+                    android:background="#EDEDED"
+                    android:textSize="30sp"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="right" />
+
+                <Button
+                    android:id="@+id/btnEirDmg9"
+
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="#077d10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:background="#EDEDED" />
+
+
+                <ImageButton
+                    android:id="@+id/imgBtnEirDmg9"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_pencil"
+                    android:layout_gravity="center"
+                    android:background="#EDEDED"
+                    android:scaleType="fitCenter" />
+            </TableRow>
+            <!--========================================================================-->
+            <!--========================================================================-->
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content">
+                <TextView
+                    android:text="-"
+                    android:textColor="#EDEDED"
+                    android:textSize="5sp"
+                    android:layout_span="3" />
+            </TableRow>
+            <!--========================================================================-->
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content">
+                <TextView
+                    android:text="Size 2"
+                    android:textStyle="bold"
+                    android:textColor="#3399ff"
+                    android:background="#EDEDED"
+                    android:textSize="30sp"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="right" />
+
+
+                <Button
+                    android:id="@+id/btnEirDmg10"
+
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="#077d10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:background="#EDEDED" />
+
+
+
+                <ImageButton
+                    android:id="@+id/imgBtnEirDmg10"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_pencil"
+                    android:layout_gravity="center"
+                    android:background="#EDEDED"
+                    android:scaleType="fitCenter" />
+            </TableRow>
+            <!--========================================================================-->
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content">
+                <TextView
+                    android:text="-"
+                    android:textColor="#EDEDED"
+                    android:textSize="5sp"
+                    android:layout_span="3" />
+            </TableRow>
+
+            <!--========================================================================-->
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content">
+                <TextView
+                    android:text="Obs"
+                    android:textStyle="bold"
+                    android:textColor="#3399ff"
+                    android:background="#EDEDED"
+                    android:textSize="30sp"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="right" />
+
+                <Button
+                    android:id="@+id/btnEirDmg7"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="#077d10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:singleLine="true"
+                    android:background="#EDEDED" />
+
+
+
+                <ImageButton
+                    android:id="@+id/imgBtnEirDmg7"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_pencil"
+                    android:layout_gravity="center"
+                    android:background="#EDEDED"
+                    android:scaleType="fitCenter" />
+            </TableRow>
+            <!--========================================================================-->
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content">
+                <TextView
+                    android:text="-"
+                    android:textColor="#EDEDED"
+                    android:textSize="5sp"
+                    android:layout_span="3" />
+            </TableRow>
+            <!--========================================================================-->
+            <!--========================================================================-->
+            <!--========================================================================-->
+            <!--========================================================================-->
+            <!--========================================================================-->
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content">
+                <Button
+                    android:id="@+id/btnEirDmg8"
+                    android:text="Agregar"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:layout_span="3"
+                    android:background="#0f87ff" />
+            </TableRow>
+            <!--========================================================================-->
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content">
+                <TextView
+                    android:text="-"
+                    android:textColor="#EDEDED"
+                    android:textSize="5sp"
+                    android:layout_span="3" />
+            </TableRow>
+            <!--========================================================================-->
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>

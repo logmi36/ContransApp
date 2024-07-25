@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "491653593821",
+    "project_id": "contransapp-c0837",
+    "storage_bucket": "contransapp-c0837.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491653593821:android:ca50c824e2a3e5b1547934",
+        "android_client_info": {
+          "package_name": "com.pe.ctrapp5"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTgJej_VtKWPrJULyQNvvCmROddx5NeTQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

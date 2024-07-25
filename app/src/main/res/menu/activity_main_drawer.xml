@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Tareas">
+        <menu>
+            <item
+                android:id="@+id/mn_01"
+                android:icon="@drawable/ic_users"
+                android:title="Reuniones" />
+        </menu>
+    </item>
+
+
+    <item android:title="Administración">
+        <menu>
+            <item
+                android:id="@+id/mn_02"
+                android:icon="@drawable/ic_truck"
+                android:title="Vehículos" />
+            <item
+                android:id="@+id/mn_03"
+                android:icon="@drawable/ic_driver"
+                android:title="Conductores" />
+            <item
+                android:id="@+id/mn_04"
+                android:icon="@drawable/ic_cube"
+                android:title="Contenedores" />
+            <item
+                android:id="@+id/mn_12"
+                android:icon="@drawable/ic_document"
+                android:title="Documentos" />
+        </menu>
+    </item>
+
+    <item android:title="Operaciones">
+        <menu>
+            <item
+                android:id="@+id/mn_05"
+                android:icon="@drawable/ic_cita"
+                android:title="Atención de Citas" />
+            <item
+                android:id="@+id/mn_06"
+                android:icon="@drawable/ic_eir"
+                android:title="Mis Citas" />
+            <item
+                android:id="@+id/mn_13"
+                android:icon="@drawable/ic_recieve"
+                android:title="Notificaciones" />
+        </menu>
+    </item>
+
+    <item android:title="Aplicativo">
+        <menu>
+            <item
+                android:id="@+id/mn_08"
+                android:icon="@drawable/ic_work"
+                android:title="Mi perfil" />
+            <item
+                android:id="@+id/mn_09"
+                android:icon="@drawable/ic_info"
+                android:title="Acerca de" />
+            <item
+                android:id="@+id/mn_10"
+                android:icon="@drawable/ic_build"
+                android:title="Configuración" />
+
+            <item
+                android:id="@+id/mn_11"
+                android:icon="@drawable/ic_exit"
+                android:title="Salir" />
+        </menu>
+    </item>
+
+</menu>

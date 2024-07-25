@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    
+    <item
+        android:id="@+id/mn9r1"
+        android:title="Actualizar"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mn9r2"
+        android:title="Historial"
+        android:icon="@drawable/ic_up"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mn9r3"
+        android:title="Exportar"
+        android:icon="@drawable/ic_up"
+        app:showAsAction="never" />
+
+
+
+</menu>

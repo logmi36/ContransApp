@@ -1,0 +1,74 @@
+<resources>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+
+    <string name="app_name">Contrans</string>
+    <string name="nav_header_title">Contrans</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="navigation_drawer_open">Menu</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="action_settings">Settings</string>
+    <string name="algo_fue_mal">Whoops, algo fue mal 😢</string>
+    <string name="ingresar">Ingresar ...</string>
+    <string name="img">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</string>
+
+    <string name="q01">Aplicativo</string>
+    <string name="q02">Contrans</string>
+    <string name="q03">V 4.0</string>
+
+
+    <string name="p01">Deposito temporal</string>
+    <string name="p02">Ubicación estratégica para el manejo de sus exportaciones e importaciones.</string>
+    <string name="p03">Trabajamos contenedores, carga suelta y cargas proyecto para las exportaciones e importaciones, tanto marítimas como terrestres.Operamos de acuerdo a lo reglamentado por la Ley general de Aduanas y a los procedimientos normados por la Superintendencia Nacional de Aduanas y de Administración Tributaria por medio de nuestros sistemas integrados con los sistemas de ADUANAS las 24hrs.</string>
+
+    <string name="p04">Deposito simple</string>
+    <string name="p05">Contamos con más de 45,000 m² destinados para el almacenamiento simple.</string>
+    <string name="p06">Contamos con almacenes para la custodia de la mercadería producida en el país y/o que haya sido importada con los derechos y tributos  debidamente cancelados a la SUNAT al momento de su arribo.</string>
+
+    <string name="p07">Depósito Autorizado</string>
+    <string name="p08">Si aún no necesitas retirar tu mercadería, nosotros nos encargamos de su almacenamiento.</string>
+    <string name="p09">Facilidad para retiros parciales de mercadería según las necesidades de nuestros clientes. Integración física y de servicio con el Depósito Temporal aprovechando nuestra cercanía al puerto (9kms) lo que nos permite manejar costos diferenciados.</string>
+
+
+    <string name="p10">Recepción y Entrega de Contenedores Vacíos</string>
+    <string name="p11">Gestionamos la administración de contenedores vacíos del tipo DRY y REEFER.</string>
+    <string name="p12">Recojo y devolución del contenedor vacío a la línea naviera. Contamos con una amplia área de reparaciones y mantenimiento para contenedores secos y refrigerados. Disponemos de una zona exclusiva de lavado (simple, químico y otros) de contenedores donde los equipos quedan en óptimas condiciones para su utilización bajo los estándares de IICL y de la misma Línea ONE.</string>
+
+
+    <string name="p13">Centro de Distribución</string>
+    <string name="p14">Contamos con un moderno Sistema Logístico WMS.</string>
+    <string name="p15">Ofrecemos servicios asociados a la cadena de abastecimiento de nuestros clientes y distribución de la mercadería. Contamos con sistemas de Gestión de Almacenes (WMS) que nos permite administrar toda la carga de nuestros clientes de forma eficiente, manteniendo la trazabilidad desde el ingreso hasta el despacho, así mismo podemos integrar nuestro sistema con los sistemas de nuestros clientes.</string>
+
+
+    <string name="p16">Transporte y Distribución</string>
+    <string name="p17">Ofrecemos una respuesta para cada necesidad de transporte.</string>
+    <string name="p18">Garantizamos el traslado de su mercadería con total seguridad. Contamos con una de las flotas más modernas de camiones plataforma y furgones. Trabajamos bajo un sistema avanzado de control y seguimiento tales como servicios de balanza y rastreo satelital a través de equipos GPS. Realizamos los servicios de transporte y distribución a nivel Lima Metropolitana, Callao y Provincia (Consultar destinos). Personal altamente capacitado y experimentado.</string>
+
+    <string name="p19">Gestión de Mercadería en Tránsito</string>
+    <string name="p20">Aseguramos el control y flujo continuo de mercadería durante su traslado.</string>
+    <string name="p21">Flujo continuo de productos. Ahorro de costos. Rapidez en el traslado hacia los centros  de distribución  o puntos de ventas de nuestros clientes.</string>
+
+    <string name="p22">Crossdocking</string>
+    <string name="p23">Avanzados sistemas de gestión le permitirán una operación de Crossdocking exitosa.</string>
+    <string name="p24">Recepcionamos, preparamos y despachamos sus pedidos a través de nuestras instalaciones sin mediar almacenamiento. Reducción del coste de almacenamiento. Reducción de los tiempos de entrega. Flujo continuo de mercadería.</string>
+
+    <string name="p25">¿En que podemos ayudarte?</string>
+    <string name="p26">Solicitar cotizacion</string>
+    <string name="p27">Hacer una consulta</string>
+
+
+    <string name="contacto01">511 422-6595</string>
+    <string name="contacto02">Contrans SAC</string>
+    <string name="contacto03">Area de Desarrollo Sistemas</string>
+    <string name="contacto04">soporte@contrans.pe</string>
+    <string name="contacto05">21-11-2018 09:17 AM</string>
+    <string name="contacto06">11</string>
+
+    <string name="my_text"><u>¿Olvidaste tu contraseña?</u>.</string>
+    <string name="api_key">AIzaSyBBVRUba8rVxLwacoq2dm3rZPXmj7Ng0-E</string>
+
+</resources>

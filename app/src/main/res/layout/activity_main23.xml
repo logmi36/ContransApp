@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backGroudColor"
+    tools:context=".MainActivity23">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/algo_fue_mal"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true"
+                app:cardCornerRadius="10dp">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="vertical">
+
+
+                    <EditText
+                        android:id="@+id/txtNroContenedorA"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                        android:hint="Prefijo"
+                        android:inputType="text|textNoSuggestions" />
+
+                    <EditText
+                        android:id="@+id/txtNroContenedorB"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:hint="Numero"
+                        android:inputType="numberDecimal" />
+
+                    <EditText
+                        android:id="@+id/txtMedidaContenedor"
+                        android:layout_width="match_parent"
+                        android:layout_height="48sp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:hint="Capacidad"
+                        android:inputType="numberDecimal" />
+
+                    <EditText
+                        android:id="@+id/txtTipoContenedor"
+                        android:layout_width="match_parent"
+                        android:layout_height="48sp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                        android:hint="Tipo" />
+
+                    <EditText
+                        android:id="@+id/txtLineaConetendor"
+                        android:layout_width="match_parent"
+                        android:layout_height="48sp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                        android:hint="Linea Naviera" />
+
+                    <EditText
+                        android:id="@+id/txtTaraConetendor"
+                        android:layout_width="match_parent"
+                        android:layout_height="48sp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:hint="Tara"
+                        android:inputType="numberDecimal" />
+
+
+                    <EditText
+                        android:id="@+id/txtMplContenedor"
+                        android:layout_width="match_parent"
+                        android:layout_height="48sp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:hint="MPL"
+                        android:inputType="numberDecimal" />
+
+                    <EditText
+                        android:id="@+id/txtAnioContenedor"
+                        android:layout_width="match_parent"
+                        android:layout_height="48sp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_marginBottom="10dp"
+                        android:hint="Año de fabricacion"
+                        android:inputType="numberDecimal" />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
